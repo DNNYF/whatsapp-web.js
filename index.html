@@ -41,13 +41,13 @@
                 <h2 class="text-lg font-bold">Contacts</h2>
             </div>
             <ul id="contactsList" class="p-4">
-                <!-- Contacts will be appended here -->
+                <!-- Contacts  -->
             </ul>
         </div>
         <!-- Chat area -->
         <div class="w-3/4 flex flex-col">
             <div class="flex-1 overflow-y-auto p-4" id="chatContainer">
-                <!-- Chat bubbles will be appended here -->
+                <!-- Chat bubbles  -->
             </div>
             <div class="p-4 bg-white border-t border-gray-200">
                 <form id="sendMessageForm" class="flex space-x-4">
@@ -118,7 +118,7 @@
 
         function loadChat(contact) {
             document.getElementById('chatContainer').innerHTML = '';
-            // Fetch and display chat history with this contact (if needed)
+            
         }
 
         function addMessageToChat(contact, message, type) {
